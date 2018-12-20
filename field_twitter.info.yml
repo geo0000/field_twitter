@@ -1,0 +1,9 @@
+name: Field Twitter
+type: module
+description: Custom Twitter feed.
+package: custom_package
+# core: 8.x
+dependencies:
+  - drupal:node
+
+core: '8.x'

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * An example field using the Field Types API.
+ */
+
+/**
+ * @defgroup field_twitter Example: Field Types API
+ * @ingroup Custom_group
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function field_twitter_theme() {
+  return array(
+    'twitter_script_formatter' => array(
+      'variables' => array('twitter_script' => NULL),
+      'template' => 'twitter-script-formatter',
+    ),
+  );
+}
